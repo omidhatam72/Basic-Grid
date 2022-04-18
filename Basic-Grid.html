@@ -1,58 +1,38 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">  
-        <link rel="stylesheet" type="text/css" href="style4.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="card">
-                <img class="card-image" src="icon1.png">
-                <p class="card-content">  از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.
-                    جهت کاهش احتمال سوء استفاده از رمز عبور، ازصفحه کلید مجازی استفاده نمایید.
-                    به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.
-                    رمز عبور خود را در فواصل زمانی کوتاه تغییرداده و هرگز آن را به سایرین ندهید.
-                </p>
-            </div>
-            <div class="card">
-                <img class="card-image" src="icon1.png">
-                <p class="card-content">  از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.
-                    جهت کاهش احتمال سوء استفاده از رمز عبور، ازصفحه کلید مجازی استفاده نمایید.
-                    به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.
-                    رمز عبور خود را در فواصل زمانی کوتاه تغییرداده و هرگز آن را به سایرین ندهید.
-                </p>
-            </div>           
-             <div class="card">
-                <img class="card-image" src="icon1.png">
-                <p class="card-content">  از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.
-                    جهت کاهش احتمال سوء استفاده از رمز عبور، ازصفحه کلید مجازی استفاده نمایید.
-                    به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.
-                    رمز عبور خود را در فواصل زمانی کوتاه تغییرداده و هرگز آن را به سایرین ندهید.
-                </p>
-            </div>
-            <div class="card">
-                <img class="card-image" src="icon1.png">
-                <p class="card-content">  از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.
-                    جهت کاهش احتمال سوء استفاده از رمز عبور، ازصفحه کلید مجازی استفاده نمایید.
-                    به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.
-                    رمز عبور خود را در فواصل زمانی کوتاه تغییرداده و هرگز آن را به سایرین ندهید.
-                </p>
-            </div>
-            <div class="card">
-                <img class="card-image" src="icon1.png">
-                <p class="card-content">  از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.
-                    جهت کاهش احتمال سوء استفاده از رمز عبور، ازصفحه کلید مجازی استفاده نمایید.
-                    به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.
-                    رمز عبور خود را در فواصل زمانی کوتاه تغییرداده و هرگز آن را به سایرین ندهید.
-                </p>
-            </div>            <div class="card">
-                <img class="card-image" src="icon1.png">
-                <p class="card-content">  از صحت آدرس URL وارد شده در مرورگر وب خود اطمینان حاصل نمایید.
-                    جهت کاهش احتمال سوء استفاده از رمز عبور، ازصفحه کلید مجازی استفاده نمایید.
-                    به منظور بالا بردن امنیت ورود به سامانه بانکداری اینترنتی، از یک بار رمز (OTP) استفاده نمایید.
-                    رمز عبور خود را در فواصل زمانی کوتاه تغییرداده و هرگز آن را به سایرین ندهید.
-                </p>
-            </div>
-        </div>
-    </body>
-</html>
+.container{
+    background-color: bisque;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    grid-gap:20px;
+    margin: 8px;
+    margin-top: 15px;
+}
+.card{
+    box-shadow: 3px 3px 5px 1px gray;
+    margin: auto;
+    background-color: aliceblue;
+    border:1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-image{
+    width: 90%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    grid-template-columns:repeat(auto-fit,minmax(150px,2fr));
+
+
+}
+.card-content{
+    direction: rtl;
+    text-align: center;
+    font-size: 15px;
+    font-family: omid;
+    justify-content: flex-start;
+}
